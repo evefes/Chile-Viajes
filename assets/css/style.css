@@ -1,14 +1,32 @@
 
 nav{
-    background-color:lightskyblue;
+background-color:lightskyblue;
 }
 
 body{
-    font-family:'Open Sans', sans-serif;
-    color: white;
-    background-color: black;
+font-family:'Open Sans', sans-serif;
+color: white;
+background-color: black;
 }
 
+h1,h2,h3{
+font-size: 20px;
+}
 
+h4{
+font-size: 15px;
+text-align: left;
+}
 
+.footer{
+display:flex;
+justify-content:space-around;
+align-items: flex-star;
+padding-top: 2rem;
+}
+
+.facebook, .github, .twitter, .linkedin{
+color: white;
+font-size: 15px;
+}
 
